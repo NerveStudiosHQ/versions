@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
-    "release_date": { "day": 19, "month": 7, "year": 2026 },
-    "notes": "Initial release under the NEX.dev brand."
+    "version": "1.0.1",
+    "release_date": { "day": 28, "month": 7, "year": 2026 },
+    "notes": "Cleaned up the background so the video plays with nothing layered over it, and removed the version readout from the corner."
 }
