@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
-    "release_date": { "day": 19, "month": 7, "year": 2026 },
-    "notes": "Initial release under the NEX.dev brand."
+    "version": "1.1.0",
+    "release_date": { "day": 28, "month": 7, "year": 2026 },
+    "notes": "Adds a cinematic mode that letterboxes the view and hides the interface for clean screenshots. The camera panel is split into sub-menus with far more to tune, including orbit distance, focus height, fly speed and movement steps. Escape now closes the editor instead of opening the pause menu."
 }
