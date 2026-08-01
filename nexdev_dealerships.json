@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
-    "release_date": { "day": 19, "month": 7, "year": 2026 },
-    "notes": "Initial release under the NEX.dev brand."
+    "version": "1.1.0",
+    "release_date": { "day": 26, "month": 7, "year": 2026 },
+    "notes": "Full visual pass over every menu — buy, finance, sell, management and admin — with clearer sections and consistent buttons, inputs and tabs. Adds a performance spec sheet to the buy menu, a live search match count and per-category counts. Menus are much lighter on performance: large catalogs open roughly twice as fast and vehicle images now load only as they scroll into view. No configuration changes required."
 }
