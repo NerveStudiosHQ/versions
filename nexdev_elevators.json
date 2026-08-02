@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
-    "release_date": { "day": 19, "month": 7, "year": 2026 },
-    "notes": "Initial release under the NEX.dev brand."
+    "version": "1.1.0",
+    "release_date": { "day": 2, "month": 8, "year": 2026 },
+    "notes": "Framework is now auto-detected, the keypress prompt can be placed anywhere on screen, and both interfaces have been rebuilt."
 }
