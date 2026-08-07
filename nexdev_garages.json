@@ -1,5 +1,5 @@
 {
-    "version": "1.1.0",
-    "release_date": { "day": 27, "month": 7, "year": 2026 },
-    "notes": "Rebuilt interface on a layered design system with resolution-proportional scaling, a compact vehicle spec grid and a reworked garage log filter. Fixes admin plate changes not applying to the vehicle itself."
+    "version": "1.1.1",
+    "release_date": { "day": 7, "month": 8, "year": 2026 },
+    "notes": "Garages only list and accept their own vehicle type again, so boats stay out of car garages and cars out of hangars. Adds a /givevehicle admin command."
 }
