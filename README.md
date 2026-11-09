@@ -1,11 +1,15 @@
-# NEX.dev | Versions
+# Nerve Studios | Versions
 
-Public version manifests for NEX.dev's FiveM scripts.
+Public version manifests for Nerve Studios FiveM scripts, one
+`nerve_<script>.json` per script. The `nex_*` and `nexdev_*` files serve the
+legacy NEX.dev scripts and stay as they are.
 
-Each `nex_<script>.json` file is fetched at runtime by the script's
-server-side `version_check.lua` to detect available updates. When the
-remote `version` is higher than the script's local `fxmanifest.lua`
-`version`, the server console prints a boxed update notice.
+Each file is fetched once per start by the script's server-side version check
+(`server/version.lua`; legacy scripts use `version_check.lua`). The console
+prints "Up to date" when the remote `version` matches the script's
+`fxmanifest.lua` `version`, and a boxed update notice with the changelog and
+download links when the remote one is higher. Server owners can turn it off
+with `set nerve:versioncheck false`.
 
 ## JSON shape
 
@@ -20,5 +24,6 @@ remote `version` is higher than the script's local `fxmanifest.lua`
 ## Release process
 
 1. Cut the release in the script's private repo (bump `fxmanifest` `version`).
-2. Update the matching `nex_<script>.json` here on `main`.
-3. Servers running an older build will see the update box on next restart.
+2. After the new version is live on the Cfx.re Portal, update the matching
+   `<script>.json` here through a PR.
+3. Servers running an older build see the update notice on their next restart.
