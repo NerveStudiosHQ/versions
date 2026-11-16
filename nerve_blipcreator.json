@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
-    "release_date": { "day": 8, "month": 11, "year": 2026 },
-    "notes": "Initial release."
+    "version": "1.0.2",
+    "release_date": { "day": 9, "month": 11, "year": 2026 },
+    "notes": "The menu now scales with your screen resolution, from 720p to 4K. 1.0.1 moved settings to shared/config.lua and needs ox_lib and OneSync: see the changelog for upgrade steps."
 }
