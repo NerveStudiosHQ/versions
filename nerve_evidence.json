@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
-    "release_date": { "day": 16, "month": 11, "year": 2026 },
-    "notes": "Initial release."
+    "version": "1.0.1",
+    "release_date": { "day": 22, "month": 11, "year": 2026 },
+    "notes": "Adds an install folder with the ox_inventory items and their images."
 }
